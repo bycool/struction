@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//queue by double-list
+
 typedef struct qnode {
 	int val;
 	struct qnode *pre, *next;
